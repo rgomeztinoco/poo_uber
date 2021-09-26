@@ -1,0 +1,20 @@
+{
+  "python.autoComplete.extraPaths": ["./Python"],
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#99e1c6",
+    "activityBar.activeBorder": "#ac6bd4",
+    "activityBar.background": "#99e1c6",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#15202b99",
+    "activityBarBadge.background": "#ac6bd4",
+    "activityBarBadge.foreground": "#15202b",
+    "statusBar.background": "#72d5b0",
+    "statusBar.foreground": "#15202b",
+    "statusBarItem.hoverBackground": "#4bc99a",
+    "titleBar.activeBackground": "#72d5b0",
+    "titleBar.activeForeground": "#15202b",
+    "titleBar.inactiveBackground": "#72d5b099",
+    "titleBar.inactiveForeground": "#15202b99"
+  },
+  "peacock.remoteColor": "#72d5b0"
+}
