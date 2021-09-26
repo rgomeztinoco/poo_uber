@@ -1,9 +1,11 @@
-class Account {
-  constructor(){
-    this.id = 0 
-    this.name = ''
-    this.document = ''
-    this.email = ''
-    this.password = ''
+export default class Account {
+  constructor(name, document){
+    this.id
+    this.name = name
+    this.document = document
+    this.email
+    this.password
   }
 }
+// Para hacerlo con require
+// module.exports = Account

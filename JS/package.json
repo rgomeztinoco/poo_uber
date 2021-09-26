@@ -1,0 +1,24 @@
+{
+  "name": "js",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "poo con js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "javascrip",
+    "poo",
+    "programacion",
+    "orientada",
+    "objetos",
+    "oop",
+    "object",
+    "oriented",
+    "programing"
+  ],
+  "author": "Ricardo Gómez <gricardo2213@gmail.com>",
+  "license": "MIT"
+}
