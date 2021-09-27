@@ -1,10 +1,15 @@
-import Car from './Car.js'
 import Account from './Account.js'
+import UberX from './UberX.js'
+import UberPool from './UberPool.js'
 
 // Para hacerlo con require (quitar el 'type' : 'modules', del archivo package.json)
-// const Account = require("./Account")
-// const Car = require("./Car")
+// const Account = require('./Account')
+// const Car = require('./Car')
 
-let car = new Car("HER23D2", new Account("Andres Herrera", "12345254"))
-car.passenger = 4
-car.printDataCar()
+let uberX = new UberX('FDR232', new Account('Andres Herrera', 'AND54R'), 'Chevrolet', 'Spark')
+uberX.id = 'Carro de Andres'
+uberX.printDataCar()
+
+let uberPool = new UberPool('DGC548', new Account('Francisco Sagasti', 'FR56ALF'), 'Dodge', 'Attitude')
+uberPool.id = 'Carro de Francisco'
+uberPool.printDataCar()

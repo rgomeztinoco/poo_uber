@@ -6,9 +6,11 @@ export default class Car {
     this.passenger
   }
   printDataCar() {
-    console.log(this.license)
-    console.log(this.driver.name)
-    console.log(this.driver.document)
+    console.group(this.id)
+    console.log('License: ' + this.license)
+    console.log('Nombre: ' + this.driver.name)
+    console.log('DNI: ' + this.driver.document)
+    console.groupEnd()
   }
 }
 // Para hacerlo con require
