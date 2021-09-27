@@ -1,4 +1,4 @@
-class Payment {
+export default class Payment {
   constructor(){
     this.id
   }
