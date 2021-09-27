@@ -1,7 +1,5 @@
 <?php
 
-require_once 'Account.php';
-
 class Car {
   public $id;
   public $license;
@@ -19,5 +17,10 @@ class Car {
 
   public function Driver(){
     return $this->driver;
+  }
+
+  public function printDataCar() {
+    echo "<h4>License:</h4>" .$this->license. "<br/>";
+    echo "<h4>Driver:</h4>" .$this->driver->name. "<br/>";
   }
 }
