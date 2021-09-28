@@ -11,3 +11,4 @@
 - Tipos de datos.
 - Principios SOLID
 - Polimorfismo
+- Encapsulamiento 
