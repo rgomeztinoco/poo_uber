@@ -4,23 +4,36 @@ class Car {
   public $id;
   public $license;
   public $driver;
-  private $passenger;
+  protected $passenger;
 
   public function __construct($license, Account $driver) {
     $this->license = $license;
     $this->driver = $driver;
   }
 
-  public function License() {
-    return $this->license;
+  public function getPassenger() {
+    return $this.passenger;
   }
 
-  public function Driver(){
-    return $this->driver;
+  public function setPassenger($passenger) {
+    if ($passenger == 4) {
+      $this->passenger = $passenger;
+    } else {
+      echo "Necesitas asignar 4 pasajeros";
+    }
+  }
+
+  public function setId($id) {
+    $this->id = $id;
   }
 
   public function printDataCar() {
-    echo "<h4>License:</h4>" .$this->license. "<br/>";
-    echo "<h4>Driver:</h4>" .$this->driver->name. "<br/>";
+    echo "
+    <h3>$this->id</h3>
+    <h4>
+    License: $this->license </br>
+    Driver: {$this->driver->name} </br>
+    Pasajeros: $this->passenger </br>
+    </h4>";
   }
 }
